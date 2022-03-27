@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "4x^4 + 1x^2\r\n5x^5 + 4x^1 + 3x^3",
+      "output": "Hasil: 5x^5 + 4x^4 + 3x^3 + 1x^2 + 4x^1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "1x^1 + 1x^1 + 1x^1 + 1x^1\r\n1x^1 + 1x^1 + 1x^1 + 1x^1",
+      "output": "Hasil: 8x^1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "1x^1 + 2x^2 + 3x^3\r\n10x^2 + 5x^3 + 1x^1 + 3x^5",
+      "output": "Hasil: 3x^5 + 8x^3 + 12x^2 + 2x^1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "10x^2 + 5x^3 + 1x^1 + 3x^5                  \r\n1x^1 + 2x^2 + 3x^3",
+      "output": "Hasil: 3x^5 + 8x^3 + 12x^2 + 2x^1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "1x^9 + 3x^2 + 5x^8 + 10x^0\r\n1x^1 + 1x^1 +  1x^1 + 1x^1",
+      "output": "Hasil: 1x^9 + 5x^8 + 3x^2 + 4x^1 + 10x^0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "1x^9 + 3x^2 + 5x^8 + 10x^0\r\n4x^1",
+      "output": "Hasil: 1x^9 + 5x^8 + 3x^2 + 4x^1 + 10x^0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "1x^1 + 2x^2 + 1x^3 + 1x^1 + 5x^3\r\n1x^3 + 3x^2 + 5x^4 + 10x^1",
+      "output": "Hasil: 5x^4 + 7x^3 + 5x^2 + 12x^1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "1x^1 + 2x^2 + 1x^3 + 1x^1 + 5x^3\r\n6x^3 + 2x^2 + 2x^1",
+      "output": "Hasil: 12x^3 + 4x^2 + 4x^1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "1x^1 + 2x^2 + 3x^3\r\n1x^1 + 2x^1 + 3x^1 + 1x^0",
+      "output": "Hasil: 3x^3 + 2x^2 + 7x^1 + 1x^0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "1x^1 + 2x^2 + 3x^3\r\n3x^3 + 2x^2 + 7x^1 + 1x^0",
+      "output": "Hasil: 6x^3 + 4x^2 + 8x^1 + 1x^0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
